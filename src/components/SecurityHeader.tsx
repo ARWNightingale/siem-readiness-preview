@@ -13,7 +13,7 @@ import {
   EuiIcon,
 } from '@elastic/eui';
 
-const SecurityHeader: React.FC<{ onMenuClick?: () => void }> = () => {
+const SecurityHeader: React.FC<{ onMenuClick?: () => void; onAgentClick?: () => void }> = () => {
   const breadcrumbs = [
     { text: 'My Security project', href: '#' },
     { text: 'Launchpad',           href: '#' },
